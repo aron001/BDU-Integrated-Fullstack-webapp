@@ -1,0 +1,20 @@
+.Profile{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    height: auto;
+    overflow: scroll;
+    margin-top: 70px;
+}
+.Profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+@media  screen and (max-width: 600px){
+    .Profile{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

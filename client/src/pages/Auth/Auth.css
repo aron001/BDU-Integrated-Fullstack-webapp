@@ -1,0 +1,119 @@
+
+.Auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  position: relative;
+}
+
+.Auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* left side */
+.a-left{
+  gap:2rem
+}
+
+.a-left > img {
+  width: 15rem;
+  height: 15rem;
+  border-radius : 40%;
+}
+.infoForm>div{
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  width: 90%;
+}
+
+
+.Webname > h1 {
+    font-size: 3rem;
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: var(--buttonBg);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.Webname>p{
+    font-size: 0.85rem;
+}
+
+
+
+/* right side */
+
+
+.authForm{
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media  screen and (max-width: 600px) {
+  .Auth {
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .a-left{
+    gap:0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+   .a-left > img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+  }
+  .Webname>h1{
+    font-size: 2rem;
+    padding-left: 2rem;
+    
+  }
+  .Webname>p{
+    font-size: 1rem;
+}
+ 
+
+}
+@media  screen and (max-width: 700px) {
+  .a-left > img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 40%;
+  }
+  .Webname>h1{
+    font-size: 1rem;
+  }
+  .Webname>p{
+    font-size: 0.75rem;
+}
+  
+}

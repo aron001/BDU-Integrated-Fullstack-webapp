@@ -1,0 +1,15 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.r-button{
+    height:3rem;
+    width: 80%;
+    align-self: center;
+}
+@media  screen and (max-width: 600px){
+    .RightSide{
+        display: none;
+    }
+}

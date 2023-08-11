@@ -1,0 +1,15 @@
+.Name{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    width:18rem;
+  }
+.works{
+    margin-top: 10px;
+    width:30rem;
+}
+.livesIn{
+    display:flex;
+    flex-direction: column;
+    gap:1rem
+}

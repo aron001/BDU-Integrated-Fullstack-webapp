@@ -1,0 +1,36 @@
+.navIcons{
+    gap: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navIcons>a>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.button1{
+	align-self: flex-end;
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.navIcons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.navIcons>img:hover{
+    cursor: pointer;
+}
+
+
+@media  screen and (max-width: 700px) {
+    .navIcons{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+

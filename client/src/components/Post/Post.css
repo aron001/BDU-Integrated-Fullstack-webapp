@@ -1,0 +1,78 @@
+.Post
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Post>img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.postReact{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.postReact>img:nth-child(1) {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.followerImage{
+    width:100%
+}
+
+
+
+
+
+.detail{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    overflow-x: auto;
+    max-width: 100%;
+
+}
+.detail>div{
+    display: flex;
+    gap: 10px;
+}
+
+.detail>div:hover{
+    cursor: pointer;
+}
+
+.vl {
+    height: 150%;
+    border-left: 2px solid var(--hrColor);
+  }
+
+.description {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 100%;
+}
+.description>div {
+    max-width: 100%;
+}
+
+.name:hover {
+    color: blue;
+}
+
+@media  screen and (max-width: 600px){
+    .Post{
+        padding:0px  
+    }
+    
+  }

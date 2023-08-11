@@ -1,0 +1,51 @@
+
+.askForm{
+  
+    margin-left: 10rem;
+
+}
+.formInputs{
+    
+}
+.AskInput{
+    margin-Bottom: 1rem;
+}
+.askInput{
+    padding: .5rem; 
+    width: 39rem;
+}
+.textArea{
+    height: 15rem;
+    width: 39.1rem;
+     padding: .5rem;
+}
+.askButton {
+    display: flex;
+    width: 7rem;
+    height: 2rem;
+    margin-Left: 33rem;
+}
+@media  screen and (max-width: 600px){
+    .askForm{
+  
+        margin-left: 0rem;
+    
+    }
+    .askInput{
+        padding: .5rem; 
+        width: 15rem;
+    }
+    .textArea{
+        height: 15rem;
+        width: 15.1rem;
+         padding: .5rem;
+    }
+    .askButton {
+        display: flex;
+        width: 7rem;
+        height: 2rem;
+        margin-Left: 3rem;
+    }
+    
+    
+  }
